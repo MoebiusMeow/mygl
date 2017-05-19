@@ -10,8 +10,8 @@ if (NOT CMAKE_VERSION VERSION_LESS "3.0")
     cmake_policy(SET CMP0042 OLD)
 endif()
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m32 -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32 -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib")
+# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m32 -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32 -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib")
 
 set(GLFW_VERSION_MAJOR "2")
 set(GLFW_VERSION_MINOR "1")
